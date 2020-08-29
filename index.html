@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pokemon Memory Card Game</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="gameBoard col-6 col-t-12">
+         <div class="title col-12 col-t-12">
+            <h1 class="titleName col-8 col-t-8">Pokemon Memory Game</h1>
+            <input type="text" class="col-2 col-t-2" id="counter" maxlength="3" size="1" value=0 disabled>
+         </div>
+         <input type="text" class="username col-10 col-t-10" id="username">
+         <div class="radios col-12 col-t-12">
+            <div class="divRadio col-3 col-t-3">
+               <input type="radio" name="lvl" id="" value="lako" checked>
+               <br><label for="lako">Lako</label>
+            </div>
+            <div class="divRadio col-3 col-t-3">
+               <input type="radio" name="lvl" id="" value="srednje">
+               <br><label for="srednje">Srednje</label>
+            </div>
+            <div class="divRadio col-3 col-t-3">
+               <input type="radio" name="lvl" id="" value="tesko">
+               <br><label for="tesko">Teško</label>
+            </div>
+            <div class="divRadio col-3 col-t-3">
+               <input type="radio" name="lvl" id="" value="expert">
+               <br><label for="expert">Expert</label>
+            </div>
+         </div>
+         <div class="board col-12 col-t-12">
+         </div>
+      </div>
+      <div class="table col-6 col-t-12">
+         <h2>LEADERBOARD</h2>
+         <div class="buttons col-12 col-t-12">
+            <input type="button" class="btnTable col-3 col-t-2" value='lako' checked></input>
+            <input type="button" class="btnTable col-3 col-t-2" value='srednje'></input>
+            <input type="button" class="btnTable col-3 col-t-2" value='tesko'></input>
+            <input type="button" class="btnTable col-3 col-t-2" value='expert'></input>
+         </div>
+         <table class="col-12 col-t-12" id="resultTable">
+            <tr>
+               <th>Place</th>
+               <th>Username</th>
+               <th>Time</th>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td id='name'></td>
+               <td id='time'></td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td id='name'></td>
+               <td id='time'></td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td id='name'></td>
+               <td id='time'></td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td id='name'></td>
+               <td id='time'></td>
+            </tr>
+            <tr>
+               <td>5</td>
+               <td id='name'></td>
+               <td id='time'></td>
+            </tr>
+         </table>
+      </div>
+      <script src="script.js"></script>
+      <!-- Sweet Alert -->
+      <script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js"></script>
+   </body>
+</html>
