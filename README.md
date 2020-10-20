@@ -2,6 +2,8 @@
 > Simple, but yet still challenging memory card game. Start small to kill time,
 and you'll end up solving expert difficulty with 50 pairs of cards. If you enjoyed watching Pokemon cartoon, you'll have that more much fun!
 
+<h2> <a href="https://nebojsa91markovic.github.io/memorycardgame/"> PLAY NOW 🎮 </a> </h2>
+
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -13,7 +15,8 @@ and you'll end up solving expert difficulty with 50 pairs of cards. If you enjoy
 * [Contact](#contact)
 
 ## General info
-Pokemon memory game, build in Vanilla JavaScript and of course HTML and CSS. Game was developed so you can play and compite with your friends, with score table
+Pokemon memory game, build in Vanilla JavaScript and of course HTML and CSS. The game is fully responsive thoughout devices (i.e. desktop screen, tablet and phone) and Firefox, Chrome and Safari friendly (tested).
+Game was developed so you can play and compite with your friends, with score table
 saving your results in your local storage.
 
 ## Screenshots
@@ -25,7 +28,7 @@ saving your results in your local storage.
 * Vanilla JavaScript
 
 ## Setup
-If you want to play this game locally, download project and double click on index.html file. You'll need some compression software as WinRar, WinZip, 7z etc.
+If you want to play this game offline, download project and double click on index.html file. You'll need some compression software as WinRar, WinZip, 7z etc.
 ![Example screenshot](https://user-images.githubusercontent.com/59211000/96584696-e6412200-12de-11eb-9b99-602b4010a91c.png)
 
 ## Features
@@ -37,7 +40,7 @@ List of features ready and TODOs for future development
 Project is finished as it was my first project like this.
 
 ## Inspiration
-Images: Pokemon Icon Pack by [I'm an inline-style link](https://www.pokemon.com/us/)
+Images: Pokemon Icon Pack by [POKEMON](https://www.pokemon.com/us/)
 
 
 ## Contact
