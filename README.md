@@ -15,7 +15,7 @@ and you'll end up solving expert difficulty with 50 pairs of cards. If you enjoy
 * [Contact](#contact)
 
 ## General info
-Pokemon memory game, build in Vanilla JavaScript and of course HTML and CSS. The game is fully responsive thoughout devices (i.e. desktop screen, tablet and phone) and Firefox, Chrome and Safari friendly (tested).
+Pokemon memory game, build using Vanilla JavaScript and of course HTML and CSS. The game is fully responsive thoughout devices (i.e. desktop screen, tablet and phone) and Firefox, Chrome and Safari friendly (tested).
 Game was developed so you can play and compite with your friends, with score table
 saving your results in your local storage.
 
